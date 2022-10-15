@@ -1,6 +1,6 @@
-package com.example.homework1.repository;
+package com.example.sparta.repository;
 
-import com.example.homework1.entity.Post;
+import com.example.sparta.entity.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface PostRepository extends JpaRepository<Post, Long> {

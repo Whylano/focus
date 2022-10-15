@@ -1,9 +1,10 @@
-package com.example.homework1.dto;
+package com.example.sparta.dto;
 
-import com.example.homework1.entity.Post;
+import com.example.sparta.entity.Post;
+import lombok.Getter;
 
 import java.time.LocalDateTime;
-
+@Getter
 public class PostResDto {
 
     private LocalDateTime createdAt;

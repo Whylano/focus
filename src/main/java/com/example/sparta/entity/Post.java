@@ -1,4 +1,4 @@
-package com.example.homework1.entity;
+package com.example.sparta.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

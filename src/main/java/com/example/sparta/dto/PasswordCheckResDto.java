@@ -1,8 +1,10 @@
-package com.example.homework1.dto;
+package com.example.sparta.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 
+@Getter
 @Data
 @AllArgsConstructor
 public class PasswordCheckResDto {

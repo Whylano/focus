@@ -1,11 +1,10 @@
-package com.example.homework1.dto;
+package com.example.sparta.dto;
 
-import com.example.homework1.entity.Post;
+import com.example.sparta.entity.Post;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-
-@AllArgsConstructor
 @Getter
+@AllArgsConstructor
 public class PostReqDto {
 
     private String title;
